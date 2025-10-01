@@ -1,3 +1,5 @@
+// pages/index.js
+
 export default function Home() {
   return (
     <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 bg-gray-100">
@@ -10,6 +12,7 @@ export default function Home() {
 
         {/* Mobil Showcase */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-6">
+          {/* Mobil Sport Merah */}
           <div className="bg-white rounded-lg shadow-md p-4 flex flex-col items-center">
             <img
               src="https://tse2.mm.bing.net/th/id/OIP.z_RKNfPgoT3pT-_KKziqxwHaE7?pid=Api&P=0&h=220"
@@ -17,9 +20,12 @@ export default function Home() {
               className="rounded-lg object-cover w-[400px] h-[250px]"
             />
             <h2 className="mt-4 text-lg font-semibold">Mobil Sport Merah</h2>
-            <p className="text-gray-500 text-sm">Kecepatan tinggi dengan desain elegan.</p>
+            <p className="text-gray-500 text-sm">
+              Kecepatan tinggi dengan desain elegan.
+            </p>
           </div>
 
+          {/* Mobil Hitam Mewah */}
           <div className="bg-white rounded-lg shadow-md p-4 flex flex-col items-center">
             <img
               src="https://tse4.mm.bing.net/th/id/OIP.Vv4dAdepNzWEcAt8J787hwHaEF?pid=Api&P=0&h=220"
@@ -27,7 +33,9 @@ export default function Home() {
               className="rounded-lg object-cover w-[400px] h-[250px]"
             />
             <h2 className="mt-4 text-lg font-semibold">Mobil Hitam Mewah</h2>
-            <p className="text-gray-500 text-sm">Nyaman, stylish, dan cocok buat bisnis.</p>
+            <p className="text-gray-500 text-sm">
+              Nyaman, stylish, dan cocok buat bisnis.
+            </p>
           </div>
         </div>
       </main>
