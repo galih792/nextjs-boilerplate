@@ -1,17 +1,20 @@
 export default function Home() {
   return (
     <div className="font-sans min-h-screen flex flex-col justify-between bg-gradient-to-br from-gray-900 via-gray-800 to-black text-gray-100">
-      <main className="flex flex-col gap-10 items-center sm:items-start p-10">
-        <h1 className="text-4xl font-extrabold tracking-tight drop-shadow-md text-red-500">
-          🚘 Galeri Mobil Galih 
+      <main className="flex flex-col gap-10 items-center p-10">
+        {/* Judul */}
+        <h1 className="text-center text-5xl font-extrabold tracking-wide drop-shadow-lg bg-gradient-to-r from-red-500 via-pink-400 to-yellow-400 text-transparent bg-clip-text">
+          🚘 Galeri Mobil Galll 🚗
         </h1>
-        <p className="text-gray-300 text-center sm:text-left max-w-2xl leading-relaxed">
+
+        {/* Deskripsi */}
+        <p className="text-center text-gray-300 max-w-2xl leading-relaxed">
           Halo nama saya <span className="font-semibold text-red-400">Galih Ardy Pratama</span>.  
-          Ini <span className="text-yellow-400">webste</span> sederhana yang saya edit sendiri.
+          Ini <span className="text-yellow-400">website</span> sederhana yang saya edit sendiri.
         </p>
 
+        {/* Card Mobil */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 mt-6">
-
           <div className="bg-gray-900 rounded-2xl shadow-lg hover:shadow-red-500/40 transition duration-300 transform hover:-translate-y-2 p-6 flex flex-col items-center border border-gray-700">
             <img
               src="https://www.wallpaperbetter.com/wallpaper/823/337/175/mitsubishi-lancer-evolution-9-1080P-wallpaper.jpg"
@@ -58,7 +61,7 @@ export default function Home() {
               alt="All New Ertiga Hybird"
               className="rounded-lg object-cover w-[370px] h-[210px]"
             />
-            <h2 className="mt-4 text-xl font-bold text-white">All New Ertiga Hybird</h2>
+            <h2 className="mt-4 text-xl font-bold text-white">All New Ertiga Hybrid</h2>
             <p className="text-gray-400 text-sm">⚡ Salah satu mobil mpv keluarga paling nyaman.</p>
           </div>
 
@@ -76,7 +79,7 @@ export default function Home() {
 
       <footer className="bg-gray-950 text-gray-400 py-4 flex justify-center border-t border-gray-700">
         <p className="text-sm">
-          © 2025 <span className="text-red-400 font-semibold">Galeri Mobil</span> - Semua hak dilindungi 🚘
+          © 2025 <span className="text-red-400 font-semibold">Galeri Mobil Galll</span> - Semua hak dilindungi 🚘
         </p>
       </footer>
     </div>
