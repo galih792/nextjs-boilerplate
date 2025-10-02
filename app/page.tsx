@@ -67,11 +67,11 @@ export default function Home() {
 
           <div className="bg-gray-900 rounded-2xl shadow-lg hover:shadow-yellow-400/40 transition duration-300 transform hover:-translate-y-2 p-6 flex flex-col items-center border border-gray-700">
             <img
-              src="https://wallpaperbat.com/img/146634874-suzuki-jimny.jpg"
+              src="https://c4.wallpaperflare.com/wallpaper/1006/734/563/land-rover-land-rover-defender-blue-car-car-wallpaper-preview.jpg"
               alt="Jimny JB74"
               className="rounded-lg object-cover w-[350px] h-[240px]"
             />
-            <h2 className="mt-4 text-xl font-bold text-white">Jimny JB74</h2>
+            <h2 className="mt-4 text-xl font-bold text-white">Land Rover Defender</h2>
             <p className="text-gray-400 text-sm">✨ Cocok buat bahan trabas dan ganteng.</p>
           </div>
         </div>
